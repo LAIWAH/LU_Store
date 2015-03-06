@@ -310,6 +310,9 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\AuthConfig.cs" />
+    <Compile Include="Controller\LoginController.cs" />
+    <Compile Include="Controller\RequisitionController.cs" />
+    <Compile Include="Controller\RequisitionDetailsController.cs" />
     <Compile Include="View\About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
